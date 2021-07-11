@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Roboto Condesed" sans-serif;
+  font-family: "Roboto Condesed", sans-serif;
 }
 .logo {
   width: 3.25rem;
@@ -39,4 +39,26 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 3px solid var(--primary-orange);
+}
+
+/* header */
+.header-wrapper {
+  position: relative;
+  background: url("../src/images/background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condesed", sans-serif !important;
+}
+
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
 }
